@@ -1,3 +1,4 @@
+import 'package:task_1/card.dart';
 import 'package:task_1/profile.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: profile(),
+      home: card(),
     );
   }
 }

@@ -91,7 +91,7 @@ class _profileState extends State<profile> {
           Row(
             children: [
               Expanded(
-                flex: 0,
+                flex: 1,
                 child: ElevatedButton( style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.blue,
                     foregroundColor: Colors.white,
@@ -107,7 +107,7 @@ class _profileState extends State<profile> {
                 ),
               ),
               Expanded(
-                flex: 0,
+                flex: 1,
                 child: ElevatedButton( style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.blue,
                     foregroundColor: Colors.white,
@@ -118,10 +118,13 @@ class _profileState extends State<profile> {
                     onPressed: () {
                   //action
                 },
-                    child: Text('facebook')),
+                    child: Text('Facebook', style: TextStyle(
+                      fontSize: 9,
+                      fontWeight: FontWeight.bold,
+                    ),)),
               ),
               Expanded(
-                flex: 0,
+                flex: 1,
                 child: ElevatedButton( style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.blue,
                   foregroundColor: Colors.white,
@@ -132,10 +135,10 @@ class _profileState extends State<profile> {
                     onPressed: () {
                       //action
                     },
-                    child: Text('youtube')),
+                    child: Text('TT')),
               ),
               Expanded(
-                flex: 0,
+                flex: 1,
                 child: OutlinedButton( style: OutlinedButton.styleFrom(
 
                   shape: RoundedRectangleBorder(
